@@ -1,0 +1,15 @@
+#include <iostream>
+using namespace std;
+#define verde "\033[32m"
+int i = 0;
+void o_sa_va_puste_calculatoru()
+{
+  while (i<i+1) {
+    cout<<verde<<i<<" ";
+    i++;
+  }
+}
+int main() {
+  o_sa_va_puste_calculatoru();
+  return 0;
+}
